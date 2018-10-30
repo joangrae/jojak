@@ -54,6 +54,16 @@ git add *
 git commit -m “{변경 내용}” 
 ```
 
+
+이전 커밋 취소
+```
+git reset 커밋명
+
+git reset HEAD^ //최근1개의 커밋취소
+
+git reset --hard HEAD 변경사항무시 마지막커밋 복구
+```
+
 원격으로 보내기
 
 ```
@@ -66,14 +76,15 @@ git push origin master
 git remote add origin {원격서버주소} 
 ```
 
-참고 페이지
+원격 저장소 목록확인
+```
+git remote
+```
 
-- download(osx): http://code.google.com/p/git-osx-installer/downloads/list
-- download(windows): http://git-scm.com/download/win
-- 설치 메뉴얼: http://blog.outsider.ne.kr/389
-- 사용 메뉴얼:http://dogfeet.github.io/articles/2012/how-to-github.html
-- git 간편 안내서: http://rogerdudler.github.com/git-guide/index.ko.html
-- 한장으로 핵심 기능만: http://rogerdudler.github.com/git-guide/files/git_cheat_sheet.pdf
+원격저장소를 제거합니다.
+```
+git remote rm 이름
+```
 
 
 ## Commit
