@@ -275,7 +275,7 @@ git config receive.denynonfastforwards false
   df = diff 
 ```
 ----------------------------------------------------------------------------
-# 2. 마크다운 사용법(문법)
+# 2. 마크다운 
 ## 2.1. 헤더Headers
 * 큰제목: 문서 제목
     ```
@@ -388,42 +388,5 @@ git config receive.denynonfastforwards false
     - 2단계
     	+ 3단계
 			= 4단계
-
-## 2.4. 코드```<pre><code></code></pre>```
-4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속된다.
-
-> 한줄 띄어쓰면 인식이 제대로 안되는 문제가 발생하곤 합니다.
-
-```
-This is a normal paragraph:
-
-    This is a code block.
-end code block.
-```
-
-<code>
-```
-This is a normal paragraph:
-    This is a code block.
-end code block.
-```
-</code>
-
-실제로 적용해보면,
-This is a normal paragraph:
-
-    This is a code block.
-end code block.
-
-## 2.5. 수평선```<hr/>```
-아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 *페이지 나누기* 용도로 많이 사용한다.
-```
-* * *
-
-***
-
-*****
-
-- - -
 
 ---------------------------------------
